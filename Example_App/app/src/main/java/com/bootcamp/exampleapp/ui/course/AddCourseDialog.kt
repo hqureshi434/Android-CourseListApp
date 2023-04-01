@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.Window
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatDialog
-import com.bootcamp.exampleapp.data.Course
+import com.bootcamp.exampleapp.data.db.entities.Course
 import com.bootcamp.exampleapp.databinding.DialogAddCourseBinding
 
 class AddCourseDialog (context: Context, var addDialogListener: AddDialogListener) : AppCompatDialog(context){
